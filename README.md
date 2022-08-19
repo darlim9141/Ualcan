@@ -48,24 +48,24 @@ You have to set up several variable at line 17 ~ 20 and line 147
 
 * path = "C:/..." assign your directory of program file
   
-  ex)```
+  ex)```c
       path = "C:/Users/harim/sele/"
       ```
 
 * download_path = "C:/..." assign your download directory (use for download and upload PDF file)
 
-  ex)```
+  ex)```c
       download_path = "C:/Users/harim/Downloads/"
       ```
 
 * file = "...xlsx" assign excel file name
   
-  ex)```
+  ex)```c
       file = "store.xlsx"
       ```
 
 * row_number = "...." assign row number of excel file that program will start reading, for this variable don't use quotation mark
 
-  ex)```
+  ex)```c
       row_number = 5604
       ```
