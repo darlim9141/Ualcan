@@ -1,5 +1,5 @@
 # selenium 3
-#Harim Jin 2022 08 18
+#Harim Jin 2022 08 19
 from ast import expr
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
