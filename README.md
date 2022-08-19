@@ -1,7 +1,7 @@
 ## Ualcan scraping program
 
 
-This program is for get expression value and P value from [ualcan](http://ualcan.path.edu) web page
+This program is for get expression value and P value from [ualcan](http://ualcan.path.uab.edu) web page
 automatically and markdown the characters of the certain gene that user wants
 
 
