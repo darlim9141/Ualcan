@@ -84,5 +84,5 @@ You have to set up several variable at line 17 ~ 20 and line 147
     row_number = 5604
   ```
 
-* select = driver.find_element(By.XPATH, '//*[@id="userfile"]').send_keys(r"C:. . .%s-KM-Exp.pdf" % gene) 
+* select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene) enter your download path to braket of send_keys
             
