@@ -15,11 +15,11 @@ Before start a program, you need to install [selenium library](https://www.selen
 ```
 
 Also download the [Web driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) that you want to use for program
-Make sure download the same version of the Webdriver that you currently using Web browser
+Make sure download the same version of the Webdriver of your currently using browser
 
 
 
-After download Web driver, change the code line 5 and 14 accoring to [this](https://github.com/SergeyPirogov/webdriver_manager), please make sure to install webdriver-manager and after add code following to your using browser
+After download Web driver, change the code line 5 and 14 accoring to [this](https://github.com/SergeyPirogov/webdriver_manager). Also to use web driver you have to install webdriver_manager
 ```c
   pip install webdriver-manager
 ```
