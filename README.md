@@ -46,6 +46,8 @@ These files are need to be in same directory, before running the program
 
 * webdriver.exe -> need to run the program(don't necesssary need to be this directory)
 
+* webdriver.log -> automatically generated files when running a program, deleting it doesn't matter
+
 
 
 # Usage
