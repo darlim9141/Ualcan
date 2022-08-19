@@ -4,7 +4,7 @@ This program is for get expression value and P value from [ualcan](http://ualcan
 automatically and markdown the characters of the certain gene that user wants
 
 
-#Prerequisite
+# Prerequisite
 
 Before start a program, you need to install [selenium library](https://www.selenium.dev/documentation/webdriver/getting_started/install_library/)
 ```c
@@ -33,9 +33,10 @@ ZNF580|||||
 ...
 
 
-#File
+
+# File
 These files are need to be in same folder before running the program
 
-*driver.py -> 
-*store.xlsx -> for saving the values from the web page
-*webdriver.exe -> need to run the program(don't necesssary need to be this dirctory)
+* driver.py -> 
+* store.xlsx -> for saving the values from the web page
+* webdriver.exe -> need to run the program(don't necesssary need to be this dirctory)
