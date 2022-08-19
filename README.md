@@ -44,10 +44,20 @@ These files are need to be in same directory, before running the program
 
 
 # Usage
-You have to set up several variable at line 17 ~ 20
+You have to set up several variable at line 17 ~ 20 and line 147
 
-* path = "..." assign your directory of program file
+* path = "C:/..." assign your directory of program file
   
-  ex) ```
-      path = "C:/Users/harim/sele/"
+  ex)```
+     path = "C:/Users/harim/sele/"
+     ```
+* download_path = "C:/..." assign your download directory (use for download and upload PDF file)
+
+  ex)```
+     download_path = "C:/Users/harim/Downloads/"
+     ```
+* file = "...xlsx" assign excel file name
+  
+  ex)```
+      file = "store.xlsx"
       ```
