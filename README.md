@@ -42,9 +42,9 @@ These files are need to be in same directory, before running the program
 
 
 * driver.py -> 
-* 
+
 * store.xlsx -> for saving the values from the web page
-* 
+
 * webdriver.exe -> need to run the program(don't necesssary need to be this directory)
 
 
