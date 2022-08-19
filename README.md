@@ -18,7 +18,13 @@ Before start a program, install [selenium library](https://www.selenium.dev/docu
  
  
 Also download the [Web driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) want to use for program, Download the same version of the web driver as your current browser.
-
+ex)
+```c
+  from webdriver_manager.chrome import ChromeDriverManager
+```
+```c
+  driver = webdriver.Chrome(execuatable_path=ChromeDriverManager().install())
+```
 
 After download Web driver, __change the code line 5 and 12__ accoring to [this](https://github.com/SergeyPirogov/webdriver_manager). Don't forget to install webdriver_manager to before change the code
 ```c
