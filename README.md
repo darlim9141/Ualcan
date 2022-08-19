@@ -8,7 +8,7 @@ automatically and markdown the characters of the certain gene that user wants
 # Prerequisite
 
 
-Before start a program, you need to install [selenium library](https://www.selenium.dev/documentation/webdriver/getting_started/install_library/)
+Before start a program, install [selenium library](https://www.selenium.dev/documentation/webdriver/getting_started/install_library/)
 ```c
   pip install selenium
 ```
@@ -17,8 +17,7 @@ Before start a program, you need to install [selenium library](https://www.selen
 ```
  
  
-Also download the [Web driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) that you want to use for program
-Make sure download the same version of the Webdriver of your currently using browser
+Also download the [Web driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/) want to use for program, Download the same version of the web driver as your current browser.
 
 
 After download Web driver, change the code line 5 and 14 accoring to [this](https://github.com/SergeyPirogov/webdriver_manager). Don't forget to install webdriver_manager to before change the code
