@@ -40,7 +40,7 @@ ZNF580|||||
 These files are need to be in same directory, before running the program
 
 
-* driver.py -> 
+* driver.py -> program code
 
 * store.xlsx -> for saving the values from the web page
 
