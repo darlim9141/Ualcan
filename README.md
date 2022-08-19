@@ -85,4 +85,9 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 * __select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene)__  enter your download path to braket of send_keys
-            
+when assign download path use __"\"__ unlike other path variable
+
+  ex)
+  ```c
+    select = select = driver.find_element(
+            By.XPATH, '//*[@id="userfile"]').send_keys(r"C:\Users\harim\Downloads\%s-KM-Exp.pdf" % gene)
