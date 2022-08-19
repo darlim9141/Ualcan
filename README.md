@@ -86,3 +86,5 @@ assign row number of excel file that program will start reading, don't use quota
   ```c
     row_number = 5604
   ```
+
+If you want to change the standard for classifying unnecessary genes, check line 85 to 105
