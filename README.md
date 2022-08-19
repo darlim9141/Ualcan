@@ -35,8 +35,19 @@ ZNF580|||||
 
 
 # File
-These files are need to be in same folder before running the program
+These files are need to be in same directory, before running the program
 
 * driver.py -> 
 * store.xlsx -> for saving the values from the web page
-* webdriver.exe -> need to run the program(don't necesssary need to be this dirctory)
+* webdriver.exe -> need to run the program(don't necesssary need to be this directory)
+
+
+
+# Usage
+You have to set up several variable at line 17 ~ 20
+
+* path = "..." assign your directory of program file
+  ex) 
+  ```c
+    path = "C:/Users/harim/sele/"
+  ```
