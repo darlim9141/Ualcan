@@ -31,3 +31,11 @@ Symbol|Expression value|Survival P value|TPM<1|unwanting gene
 HN1|||||
 ZNF580|||||
 ...
+
+
+#File
+These files are need to be in same folder before running the program
+
+*driver.py -> 
+*store.xlsx -> for saving the values from the web page
+*webdriver.exe -> need to run the program(don't necesssary need to be this dirctory)
