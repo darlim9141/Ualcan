@@ -25,7 +25,7 @@ After download Web driver, change the code line 5 and 14 accoring to [this](http
   pip install webdriver-manager
 ```
 
-Make excel file at same directory of this program, the first row of the excel file need have gene name, and other row have to be empthy
+Make excel file at same directory of this program, the first row of the excel file has gene name, and other rows have to be empthy
 
 
 Symbol|Expression value|Survival P value|TPM<1|unwanting gene
