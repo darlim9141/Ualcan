@@ -13,7 +13,7 @@ import os
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
 #driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
-#set directory
+#set directory, storage file, and starting point
 path = "C:\\Users\\harim\\sele\\"
 download_path = "C:\\Users\\harim\\Downloads\\"
 file = "store.xlsx"
