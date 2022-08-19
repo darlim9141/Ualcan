@@ -18,6 +18,7 @@ path = "C:\\Users\\harim\\sele\\"
 download_path = "C:\\Users\\harim\\Downloads\\"
 file = "store.xlsx"
 row_number = 5615
+last_row = 9554
 
 #set a file for store the result
 wb = op.load_workbook(path + file)
@@ -27,7 +28,7 @@ print('""""""""""""""""""""""""""""""""""""')
 #row number determines the gene to import
 
 
-while row_number < 9554:
+while row_number < last_row:
     #get a gene name from file
     gene = ws.cell(row=row_number, column=1).value
     print(gene)
