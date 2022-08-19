@@ -8,7 +8,6 @@ Before start a program, you need to install [selenium library](https://www.selen
 ```c
   pip install selenium
 ```
-or
 ```c
   conda intall selenium
 ```
