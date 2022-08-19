@@ -89,7 +89,7 @@ assign row number of excel file that program will start reading, for this variab
   ```
 
 * __select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene)__  
-enter your download path to braket of send_keys, when assign download path use __"\"__ unlike other path variable (line 147)
+enter your download path to braket of send_keys, when assign download path use __"\\"__ unlike other path variable (line 147)
 
   ex)
   ```c
