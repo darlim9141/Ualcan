@@ -28,3 +28,5 @@ Make excel file at same directory of this program, the first row of the excel fi
 
 Symbol|Expression value|Survival P value|TPM<1|unwanting gene
 ---|---|---|---|---|
+HN1|---|---|---|---|
+ZNF580|---|---|---|---|
