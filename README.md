@@ -49,7 +49,7 @@ These files are need to be in same directory, before running the program
 
 
 # Usage
-You have to set up several variable at line 17 ~ 20
+You have to set up several variable at line 17 ~ 21
 
 
 * __path = "C:\\. . ."__  
@@ -86,5 +86,15 @@ assign row number of excel file that program will start reading, don't use quota
   ```c
     row_number = 5604
   ```
+  
+  
+* __last_row = ". . ."__
+assing the row number of last gene name
+
+  ex)
+  ```c
+    last_row = 9554
+  ```
+
 
 If you want to change the standard for classifying unnecessary genes, check line 85 to 105
