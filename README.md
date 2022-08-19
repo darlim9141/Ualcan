@@ -50,24 +50,24 @@ These files are need to be in same directory, before running the program
 
 
 # Usage
-You have to set up several variable at line 17 ~ 20 and line 147
+You have to set up several variable at line 17 ~ 20
 
 
-* __path = "C:/. . ."__  
+* __path = "C:\\. . ."__  
 assign your directory of program file (line 17)
   
   ex)
   ```c
-    path = "C:/Users/harim/sele/"
+    path = "C:\\Users\\harim\\sele\\"
   ```
 
 
-* __download_path = "C:/. . ."__  
+* __download_path = "C:\\. . ."__  
 assign your download directory (use for download and upload PDF file) (line 18)
 
   ex)
   ```c
-    download_path = "C:/Users/harim/Downloads/"
+    download_path = "C:\\Users\\harim\\Downloads\\"
   ```
 
 
@@ -87,11 +87,3 @@ assign row number of excel file that program will start reading, for this variab
   ```c
     row_number = 5604
   ```
-
-* __select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene)__  
-enter your download path to braket of send_keys, when assign download path use __"\\"__ unlike other path variable (line 147)
-
-  ex)
-  ```c
-    select = select = driver.find_element(
-            By.XPATH, '//*[@id="userfile"]').send_keys(r"C:\Users\harim\Downloads\%s-KM-Exp.pdf" % gene)
