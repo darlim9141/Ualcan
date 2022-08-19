@@ -81,7 +81,7 @@ assign excel file name (line 19)
 
 
 * __row_number = ". . ."__  
-assign row number of excel file that program will start reading, for this variable don't use quotation mark (line 20)
+assign row number of excel file that program will start reading, don't use quotation mark for this variable (line 20)
 
   ex)
   ```c
