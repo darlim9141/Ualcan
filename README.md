@@ -53,7 +53,7 @@ These files are need to be in same directory, before running the program
 You have to set up several variable at line 17 ~ 20 and line 147
 
 
-* path = "C:/..." assign your directory of program file
+* path = "C:/. . ." assign your directory of program file (line 17)
   
   ex)
   ```c
@@ -61,7 +61,7 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* download_path = "C:/..." assign your download directory (use for download and upload PDF file)
+* download_path = "C:/. . ." assign your download directory (use for download and upload PDF file) (line 18)
 
   ex)
   ```c
@@ -69,7 +69,7 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* file = "...xlsx" assign excel file name
+* file = ". . .xlsx" assign excel file name (line 19)
   
   ex)
   ```c
@@ -77,10 +77,12 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* row_number = "...." assign row number of excel file that program will start reading, for this variable don't use quotation mark
+* row_number = ". . ." assign row number of excel file that program will start reading, for this variable don't use quotation mark (line 20)
 
   ex)
   ```c
     row_number = 5604
   ```
 
+* select = driver.find_element(By.XPATH, '//*[@id="userfile"]').send_keys(r"C:. . .%s-KM-Exp.pdf" % gene) 
+            
