@@ -48,13 +48,15 @@ You have to set up several variable at line 17 ~ 20 and line 147
 
 * path = "C:/..." assign your directory of program file
   
-  ex)```c
+  ex)
+  ```c
       path = "C:/Users/harim/sele/"
       ```
 
 * download_path = "C:/..." assign your download directory (use for download and upload PDF file)
 
-  ex)```c
+  ex)
+  ```c
       download_path = "C:/Users/harim/Downloads/"
       ```
 
