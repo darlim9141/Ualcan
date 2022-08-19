@@ -3,7 +3,6 @@
 from ast import expr
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
-#from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -11,7 +10,6 @@ import openpyxl as op
 import os
 
 driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-#driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
 #set directory, storage file, and starting point
 path = "C:\\Users\\harim\\sele\\"
