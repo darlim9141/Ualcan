@@ -53,7 +53,8 @@ These files are need to be in same directory, before running the program
 You have to set up several variable at line 17 ~ 20 and line 147
 
 
-* __path = "C:/. . ."__  assign your directory of program file (line 17)
+* __path = "C:/. . ."__  
+assign your directory of program file (line 17)
   
   ex)
   ```c
@@ -61,7 +62,8 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* __download_path = "C:/. . ."__  assign your download directory (use for download and upload PDF file) (line 18)
+* __download_path = "C:/. . ."__  
+assign your download directory (use for download and upload PDF file) (line 18)
 
   ex)
   ```c
@@ -69,7 +71,8 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* __file = ". . .xlsx"__  assign excel file name (line 19)
+* __file = ". . .xlsx"__ 
+assign excel file name (line 19)
   
   ex)
   ```c
@@ -77,15 +80,16 @@ You have to set up several variable at line 17 ~ 20 and line 147
   ```
 
 
-* __row_number = ". . ."__  assign row number of excel file that program will start reading, for this variable don't use quotation mark (line 20)
+* __row_number = ". . ."__  
+assign row number of excel file that program will start reading, for this variable don't use quotation mark (line 20)
 
   ex)
   ```c
     row_number = 5604
   ```
 
-* __select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene)__  enter your download path to braket of send_keys
-when assign download path use __"\"__ unlike other path variable
+* __select = driver.find_element(. . .).send_keys(r". . .%s-KM-Exp.pdf" % gene)__  
+enter your download path to braket of send_keys, when assign download path use __"\"__ unlike other path variable (line 147)
 
   ex)
   ```c
