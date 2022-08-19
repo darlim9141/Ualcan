@@ -19,7 +19,7 @@ Make sure download the same version of the Webdriver of your currently using bro
 
 
 
-After download Web driver, change the code line 5 and 14 accoring to [this](https://github.com/SergeyPirogov/webdriver_manager). Also to use web driver you have to install webdriver_manager
+After download Web driver, change the code line 5 and 14 accoring to [this](https://github.com/SergeyPirogov/webdriver_manager). Don't forget to install webdriver_manager to before change the code
 ```c
   pip install webdriver-manager
 ```
