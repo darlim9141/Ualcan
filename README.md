@@ -48,7 +48,6 @@ You have to set up several variable at line 17 ~ 20
 
 * path = "..." assign your directory of program file
   
-  ex) 
-  ```c
-    path = "C:/Users/harim/sele/"
-  ```
+  ex) ```c
+      path = "C:/Users/harim/sele/"
+      ```
