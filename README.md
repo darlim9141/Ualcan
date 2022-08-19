@@ -48,6 +48,6 @@ You have to set up several variable at line 17 ~ 20
 
 * path = "..." assign your directory of program file
   
-  ex) ```c
+  ex) ```
       path = "C:/Users/harim/sele/"
       ```
